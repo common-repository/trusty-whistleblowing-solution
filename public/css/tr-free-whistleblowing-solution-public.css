@@ -1,0 +1,286 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#adminmenu div.wp-menu-image img{
+    width: 34px;
+}
+.tr-status-section{
+	background-color: #eb04873b;
+    padding: 10px;
+    color: #EB0487;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.tr-status-error-icon{
+	font-size: 20px;
+}
+
+#frm_tr_trusty .input-err{
+    border: #b10000 1px solid;
+}
+#frm_tr_trusty .tr-err-text {
+	color: #b10000;
+	margin-top: 4px;
+	margin-bottom: 0;
+	font-size: 12px;
+	height: 18px;
+	position: absolute;
+	bottom: 12px;
+	left: 0;
+}
+#frm_tr_trusty .form-table th{
+    padding: 10px 10px 10px 0;
+}
+#frm_tr_trusty .form-table td{
+    padding: 5px 10px;
+}
+
+ .tr-wrap *{
+    box-sizing: border-box;    
+ }
+.tr-wrap {
+	padding: 30px;
+	background: #fff;
+	position: relative;
+	box-sizing: border-box;
+	margin-top: 20px;
+	max-width: calc(100% - 20px)
+}
+.tr-title h1 {
+	position: relative;
+	margin: 0;
+	font-weight: bold;
+	line-height: 140%;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #ccc;
+}
+
+.tr-wrap .form-table {
+	/*max-width: 500px;*/
+	width: 100%;
+	border-bottom: 1px solid #d7d7d7;
+	margin-top: 3em;
+}
+
+.tr-wrap #frm_tr_trusty .form-table th,
+.tr-wrap #frm_tr_trusty .form-table td {
+	padding: 0 0 35px 0;
+	width: auto;
+	line-height: 100%;
+	vertical-align: middle;
+	position:relative;
+	font-size: 15px;
+}
+.tr-wrap #frm_tr_trusty .form-table th {
+	width: 120px;
+	font-size: 15px;
+}
+.tr-wrap #frm_tr_trusty .form-table td select,
+.tr-wrap #frm_tr_trusty .form-table td input:not(input[type="checkbox"]):not(input[type="radio"]) {
+	width: 100%;
+	display: block;
+	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	max-width: 100%;
+	height: 42px;
+	padding: 0 15px;
+	outline: none;
+	box-shadow: none;
+	font-size: 15px;
+	color: #000;
+}
+.tr-wrap #frm_tr_trusty .form-table td input[type="checkbox"] {
+	width: 22px;
+	height: 22px;
+	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	margin-right: 10px;
+	margin-top: -3px;
+	box-shadow: none;
+}
+.tr-wrap #frm_tr_trusty .form-table td input[type="checkbox"]::before {
+	margin: 0px 0 0px -1px;
+	background-color: #e3e3e3;
+	border-radius: 5px;
+}
+.tr-wrap #frm_tr_trusty .form-table td a {
+	text-transform: capitalize;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2px;
+}
+.tr-wrap p.submit {
+	text-align: right;
+	max-width: 500px;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+.tr-wrap p.submit .button-primary {
+	box-shadow: none;
+	padding: 11px 20px 14px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 120%;
+	border-radius: 5px;
+	border: none;
+}
+.tr-wrap p.submit .button-primary:hover {
+	background: #378fd7;
+}
+
+.tr-err-text:empty {
+	display: none;
+}
+.tr-hidden{
+    display: none;
+}
+
+/* Succesful registration WBS section css */
+.wbs-header-section{
+	display: flex;
+}
+.wbs-header-title-section{
+	align-self: flex-end;
+	margin-left : 5px;
+	word-break: break-word;
+}
+.wbs-header-section{
+	border-bottom : 2px solid #eee;
+}
+.wbs-info-icon{
+	font-size: 25px;
+    font-weight: 700;
+}
+.wbs-header-title-section h1{
+	color: #4e4f50;
+	font-size : 2.3em;
+	margin: 0.67em 0;
+	font-weight : 600;
+	line-height: 25px;
+}
+@media (max-width:  912px){
+	.wbs-header-title-section h2{
+		color: #EB0487;
+	    margin: 0.5em 0;
+	}
+	.wbs-header-title-section h1{
+		color: #4e4f50;
+		font-size : 1.5em;
+		margin: 0.67em 0;
+		font-weight : 600;
+		line-height: 25px;
+	}
+}
+.wbs-header-title-section h2{
+		color: #EB0487;
+	    font-size: 1.5em;
+	    margin: 0.5em 0;
+	}
+.wbs-account-activated-message p{
+	font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+}
+.wbs-account-activated-message{
+	margin-top: 1em;
+}
+.wbs-link-section .wbs-diff-style{
+	color: #EB0487;
+	font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+}
+.wbs-link-style{
+	text-decoration: underline;
+	color: inherit;
+	word-break: break-all;
+}
+.wbs-decorated-link-span{
+	font-size: 1em;
+	text-decoration: underline;
+	color: #EB0487;
+}
+.wbs-italic-text{
+	font-style: italic;
+	font-weight: 500;
+	font-size:  13px;
+}
+.wbs-italic-text-info{
+	font-style: italic;
+	font-size:  13px;
+	color: #EB0487;
+	padding-left: 30px;
+}
+.wbs-field-info{
+	width: 50% !important;
+}
+@media (max-width:768px){
+	.wbs-field-info{
+		width: 100% !important;
+	}
+}
+.wbs-button-copy-code{
+	background-color: #EB0487;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 1px;
+    font-size: 16px;
+    box-shadow: inset 2px 2px 3px #e36eb0;
+    cursor: pointer;
+}
+@media (max-width: 764px){
+	.wbs-button-copy-code{
+		background-color: #EB0487;
+	    color: #ffffff;
+	    padding: 1px 10px;
+	    border-radius: 1px;
+	    font-size: 14px;
+	    box-shadow: inset 2px 2px 3px #e36eb0;
+	    cursor: pointer;
+	}
+	.wbs-copy-code-content textarea {
+	    overflow: hidden;
+	    border-color: rgb(235, 4, 135);
+	    height: 70px;
+	    resize: none;
+	    width: 100%;
+	    margin-left: 2px;
+	}
+}
+.wbs-copy-code-section{
+	display: flex;
+}
+.wbs-copy-code-content{
+	width: 85%;
+}
+.wbs-copy-code-content textarea{
+	overflow: hidden;
+    border-color: rgb(235, 4, 135);
+    height: 48px;
+    resize: none;
+    width: 100%;
+    margin-left: 2px;
+}
+.wbs-username-password .wbs-bold-text{
+	font-weight: 700;
+	color: #000000;
+}
+
+.tr-status{
+	margin: 4em 0 2em 0;
+}
+
+.tr-status-section{
+	margin: 2em 0;
+}
+
+.wbs-username-password .wbs-italic-text{
+	user-select: all;
+}
